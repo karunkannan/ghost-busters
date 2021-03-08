@@ -1,2 +1,4 @@
 # ghost-busters
-https://ghost.org/
+https://ghost.org
+
+Developed running ghost locally
