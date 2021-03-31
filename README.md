@@ -1,4 +1,4 @@
 # ghost-busters
 https://ghost.org
 
-Developed running ghost locally
+Custom theme for Ghost

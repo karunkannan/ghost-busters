@@ -1,0 +1,16 @@
+{
+    "name": "karunkannan",
+    "description": "theme for my personal website",
+    "version": "0.0.1",
+    "engines": {
+        "ghost-api": "v4",
+        "ghost": ">=4.0.0"
+    },
+    "keywords": ["ghost-theme"],
+    "license": "MIT",
+    "author": {
+        "name": "Karun Kannan",
+        "email": "karun.kannan15@gmail.com"
+    },
+    "config": {}
+}
