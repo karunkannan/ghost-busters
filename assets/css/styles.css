@@ -1,3 +1,67 @@
+@import "assets/css/modules/_fonts.css";
+
+:root {
+  --background-color: #63768d;
+  --header-text-color: #d8e4ff;
+  --text-color: #fcfcfc;
+  --complement: #f45b69;
+  --max-width: 1080px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: var(--background-color);
+  height: 100%;
+}
+
+/****** Header ******/
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.title a:hover {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+.spacer {
+  flex: auto;
+}
+
+.header-container a {
+  color: var(--header-text-color);
+  text-decoration: none;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation li {
+  margin: 0 10px;
+}
+
+.navigation a:hover {
+  color: var(--complement);
+  text-decoration: none;
+}
+
 .kg-width-full {
 }
 
